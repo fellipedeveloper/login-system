@@ -1,0 +1,27 @@
+{
+  "name": "fellipedeveloper/crud-php",
+  "description": "CRUD em PHP com POO e MVC",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Fellipe Oliveira",
+      "email": "ofellipe.dev@gmail.com",
+      "homepage": "https://www.2dsystems.net",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Support/Config.php",
+      "source/Support/Helpers.php"
+    ]
+  },
+  "require": {
+  }
+}
